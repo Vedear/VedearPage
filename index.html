@@ -3,12 +3,247 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Мой учебный проект</title>
+    <title>Мир Котиков | Сайт-визитка</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
 <body>
-    <h1>Тут будет нормальный сайт</h1>
-    <p>Самостоятельно создать структуру сайта: каталоги pages, img, syle</p>
-    <p>Создать 3-4 веб-страницы с использованием стилей CSS</p>
-    <p>Добавить эффекты или формы JS</p>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container">
+            <nav>
+                <div class="logo">
+                    <i class="fas fa-paw"></i>
+                    Мир Котиков
+                </div>
+                <ul class="nav-links">
+                    <li><a href="#" data-page="home">Главная</a></li>
+                    <li><a href="#" data-page="portfolio">Портфолио</a></li>
+                    <li><a href="#" data-page="services">Услуги</a></li>
+                    <li><a href="#" data-page="contact">Контакты</a></li>
+                </ul>
+                <div class="mobile-menu">
+                    <i class="fas fa-bars"></i>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Главная страница -->
+    <section id="home" class="page active">
+        <div class="container">
+            <div class="hero">
+                <h1>Добро пожаловать в мир котиков!</h1>
+                <p>Мы заботимся о ваших пушистых друзьях и предлагаем лучшие услуги для кошек и их владельцев.</p>
+                <a href="#" class="btn" data-page="services">Наши услуги</a>
+            </div>
+
+            <div class="about">
+                <div class="about-img">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNjAwIiBoZWlnaHQ9IjQwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmZkMWRjIi8+CiAgPGNpcmNsZSBjeD0iMTUwIiBjeT0iMTUwIiByPSI4MCIgZmlsbD0iI2ZmYzRjOSIvPgogIDxjaXJjbGUgY3g9IjEyMCIgY3k9IjEzMCIgcj0iMTAiIGZpbGw9IiM1YTJhMWUiLz4KICA8Y2lyY2xlIGN4PSIxODAiIGN5PSIxMzAiIHI9IjEwIiBmaWxsPSIjNWEyYTFlIi8+CiAgPHBhdGggZD0iTTE1MCAxODAgUTE2MCAyMDAgMTMwIDIwMCBRMTEwIDE4MCAxNTAgMTgwIiBmaWxsPSIjNWEyYTFlIi8+CiAgPHBhdGggZD0iTTMwMCAxMDAgUTI1MCAxNTAgMzUwIDE1MCIgc3Ryb2tlPSIjNWEyYTFlIiBzdHJva2Utd2lkdGg9IjgiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMzUwIDEwMCBRNDAwIDE1MCAzMDAgMTUwIiBzdHJyb2tlPSIjNWEyYTFlIiBzdHJva2Utd2lkdGg9IjgiIGZpbGw9Im5vbmUiLz4KICA8Y2lyY2xlIGN4PSI0NTAiIGN5PSIyNTAiIHI9IjcwIiBmaWxsPSIjZmZjNGM5Ii8+CiAgPGNpcmNsZSBjeD0iNDIwIiBjeT0iMjMwIiByPSIxMCIgZmlsbD0iIzVhMmExZSIvPgogIDxjaXJjbGUgY3g9IjQ4MCIgY3k9IjIzMCIgcj0iMTAiIGZpbGw9IiM1YTJhMWUiLz4KICA8cGF0aCBkPSJNNDUwIDI4MCBRNDYwIDMwMCA0MzAgMzAwIFE0MTAgMjgwIDQ1MCAyODAiIGZpbGw9IiM1YTJhMWUiLz4KICA8cGF0aCBkPSJNMzAwIDMwMCBRMjUwIDM1MCAzNTAgMzUwIiBzdHJva2U9IiM1YTJhMWUiIHN0cm9rZS13aWR0aD0iOCIgZmlsbD0ibm9uZSIvPgogIDxwYXRoIGQ9Ik0zNTAgMzAwIFE0MDAgMzUwIDMwMCAzNTAiIHN0cm9rZT0iIzVhMmExZSIgc3Ryb2tlLXdpZHRoPSI4IiBmaWxsPSJub25lIi8+Cjwvc3ZnPg==" alt="Милые котики">
+                </div>
+                <div class="about-text">
+                    <h2>О нашей компании</h2>
+                    <p>Мы - команда профессионалов, которые обожают кошек и заботятся о них. Наша миссия - сделать жизнь каждого котика счастливой и комфортной.</p>
+                    <p>С 2015 года мы помогаем владельцам кошек с уходом, воспитанием и здоровьем их питомцев. Наши специалисты имеют многолетний опыт работы с различными породами кошек.</p>
+                    <p>Мы верим, что каждый котик заслуживает любви, заботы и внимания. Присоединяйтесь к нашему сообществу любителей кошек!</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Портфолио -->
+    <section id="portfolio" class="page">
+        <div class="container">
+            <h2 class="section-title">Наши пушистые клиенты</h2>
+            <div class="portfolio-grid">
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZmZjNGM5Ii8+CiAgPGNpcmNsZSBjeD0iMjAwIiBjeT0iMTUwIiByPSI3MCIgZmlsbD0iI2ZmYThhOCIvPgogIDxjaXJjbGUgY3g9IjE4MCIgY3k9IjEzMCIgcj0iOCIgZmlsbD0iIzVhMmExZSIvPgogIDxjaXJjbGUgY3g9IjIyMCIgY3k9IjEzMCIgcj0iOCIgZmlsbD0iIzVhMmExZSIvPgogIDxwYXRoIGQ9Ik0yMDAgMTgwIFEyMTAgMjAwIDE5MCAyMDAgUTE3MCAxODAgMjAwIDE4MCIgZmlsbD0iIzVhMmExZSIvPgogIDxwYXRoIGQ9Ik0xMjAgMTAwIFE4MCAxNTAgMTQwIDE1MCIgc3Ryb2tlPSIjNWEyYTFlIiBzdHJva2Utd2lkdGg9IjYiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMjgwIDEwMCBRMzIwIDE1MCAyNjAgMTUwIiBzdHJva2U9IiM1YTJhMWUiIHN0cm9rZS13aWR0aD0iNiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=" alt="Рыжий котик">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Рыжик</h3>
+                        <p>Любознательный и игривый котик. Обожает исследовать новые места и играть с мячиком.</p>
+                        <button class="btn-small like-btn" data-cat="Рыжик">
+                            <i class="far fa-heart"></i> <span class="like-count">0</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjZTVlNWU1Ii8+CiAgPGNpcmNsZSBjeD0iMjAwIiBjeT0iMTUwIiByPSI3MCIgZmlsbD0iI2RjZGNkYyIvPgogIDxjaXJjbGUgY3g9IjE4MCIgY3k9IjEzMCIgcj0iOCIgZmlsbD0iIzVhMmExZSIvPgogIDxjaXJjbGUgY3g9IjIyMCIgY3k9IjEzMCIgcj0iOCIgZmlsbD0iIzVhMmExZSIvPgogIDxwYXRoIGQ9Ik0yMDAgMTgwIFEyMTAgMjAwIDE5MCAyMDAgUTE3MCAxODAgMjAwIDE4MCIgZmlsbD0iIzVhMmExZSIvPgogIDxwYXRoIGQ9Ik0xMjAgMTAwIFE4MCAxNTAgMTQwIDE1MCIgc3Ryb2tlPSIjNWEyYTFlIiBzdHJva2Utd2lkdGg9IjYiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMjgwIDEwMCBRMzIwIDE1MCAyNjAgMTUwIiBzdHJva2U9IiM1YTJhMWUiIHN0cm9rZS13aWR0aD0iNiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=" alt="Серый котик">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Снежок</h3>
+                        <p>Спокойный и ласковый котик. Предпочитает нежиться на солнышке и мурлыкать.</p>
+                        <button class="btn-small like-btn" data-cat="Снежок">
+                            <i class="far fa-heart"></i> <span class="like-count">0</span>
+                        </button>
+                    </div>
+                </div>
+
+                <div class="portfolio-item">
+                    <div class="portfolio-img">
+                        <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iNDAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjYzFjMWMxIi8+CiAgPGNpcmNsZSBjeD0iMjAwIiBjeT0iMTUwIiByPSI3MCIgZmlsbD0iI2E1YTVhNSIvPgogIDxjaXJjbGUgY3g9IjE4MCIgY3k9IjEzMCIgcj0iOCIgZmlsbD0iIzVhMmExZSIvPgogIDxjaXJjbGUgY3g9IjIyMCIgY3k9IjEzMCIgcj0iOCIgZmlsbD0iIzVhMmExZSIvPgogIDxwYXRoIGQ9Ik0yMDAgMTgwIFEyMTAgMjAwIDE5MCAyMDAgUTE3MCAxODAgMjAwIDE4MCIgZmlsbD0iIzVhMmExZSIvPgogIDxwYXRoIGQ9Ik0xMjAgMTAwIFE4MCAxNTAgMTQwIDE1MCIgc3Ryb2tlPSIjNWEyYTFlIiBzdHJva2Utd2lkdGg9IjYiIGZpbGw9Im5vbmUiLz4KICA8cGF0aCBkPSJNMjgwIDEwMCBRMzIwIDE1MCAyNjAgMTUwIiBzdHJva2U9IiM1YTJhMWUiIHN0cm9rZS13aWR0aD0iNiIgZmlsbD0ibm9uZSIvPgo8L3N2Zz4=" alt="Черный котик">
+                    </div>
+                    <div class="portfolio-info">
+                        <h3>Уголёк</h3>
+                        <p>Энергичный и умный котик. Любит высоту и наблюдать за происходящим с верхних полок.</p>
+                        <button class="btn-small like-btn" data-cat="Уголёк">
+                            <i class="far fa-heart"></i> <span class="like-count">0</span>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Услуги -->
+    <section id="services" class="page">
+        <div class="container">
+            <h2 class="section-title">Наши услуги</h2>
+            <div class="services">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-cat"></i>
+                    </div>
+                    <h3>Кошачий груминг</h3>
+                    <p>Профессиональный уход за шерстью, стрижка когтей и гигиенические процедуры для вашего питомца.</p>
+                    <button class="btn-small service-btn" data-service="Груминг">Записаться</button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-home"></i>
+                    </div>
+                    <h3>Передержка</h3>
+                    <p>Комфортные условия для вашего котика на время вашего отсутствия. Индивидуальные вольеры и забота.</p>
+                    <button class="btn-small service-btn" data-service="Передержка">Записаться</button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-stethoscope"></i>
+                    </div>
+                    <h3>Ветеринарная помощь</h3>
+                    <p>Консультации, вакцинация и лечение под наблюдением опытных ветеринаров.</p>
+                    <button class="btn-small service-btn" data-service="Ветеринария">Записаться</button>
+                </div>
+
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-graduation-cap"></i>
+                    </div>
+                    <h3>Обучение и консультации</h3>
+                    <p>Помощь в воспитании котика, решение поведенческих проблем и консультации по уходу.</p>
+                    <button class="btn-small service-btn" data-service="Обучение">Записаться</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Контакты -->
+    <section id="contact" class="page">
+        <div class="container">
+            <h2 class="section-title">Свяжитесь с нами</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3 class="contact-subtitle">Наши контакты</h3>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-map-marker-alt"></i>
+                        </div>
+                        <div>
+                            <h4>Адрес</h4>
+                            <p>ул. Кошачья, д. 15, г. Мурск</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-phone"></i>
+                        </div>
+                        <div>
+                            <h4>Телефон</h4>
+                            <p>+7 (123) 456-78-90</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-envelope"></i>
+                        </div>
+                        <div>
+                            <h4>Email</h4>
+                            <p>info@catworld.ru</p>
+                        </div>
+                    </div>
+
+                    <div class="contact-item">
+                        <div class="contact-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div>
+                            <h4>Время работы</h4>
+                            <p>Пн-Пт: 9:00-20:00<br>Сб-Вс: 10:00-18:00</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form">
+                    <h3 class="contact-subtitle">Напишите нам</h3>
+                    <form id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Ваше имя</label>
+                            <input type="text" id="name" class="form-control" placeholder="Введите ваше имя" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="email">Ваш email</label>
+                            <input type="email" id="email" class="form-control" placeholder="Введите ваш email" required>
+                        </div>
+
+                        <div class="form-group">
+                            <label for="message">Сообщение</label>
+                            <textarea id="message" class="form-control" placeholder="Введите ваше сообщение" required></textarea>
+                        </div>
+
+                        <button type="submit" class="btn">Отправить сообщение</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="logo">
+                <i class="fas fa-paw"></i>
+                Мир Котиков
+            </div>
+            <p>Сайт-визитка компании, которая обожает котиков</p>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-vk"></i></a>
+                <a href="#"><i class="fab fa-telegram"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+            </div>
+            <p>&copy; 2023 Мир Котиков. Все права не защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Модальное окно -->
+    <div id="modal" class="modal">
+        <div class="modal-content">
+            <span class="close-modal">&times;</span>
+            <h3 id="modal-title">Запись на услугу</h3>
+            <p id="modal-text"></p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
